@@ -1,0 +1,15 @@
+model_id: svm
+max_trials: 1
+n_jobs: 4
+n_tune_splits: 3
+n_cv_splits: 5
+reg_as_clf: false
+ds:
+  matter: white
+  demo: false
+  method: clf
+  target: sev
+  sev_from_asa: true
+  filter_acute: false
+  scale_reg_target: false
+  path: data

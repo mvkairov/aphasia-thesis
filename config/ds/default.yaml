@@ -1,0 +1,8 @@
+matter: white
+demo: True
+method: clf
+target: type
+sev_from_asa: False
+filter_acute: False
+scale_reg_target: False
+path: data

@@ -1,0 +1,4 @@
+- ordinal=True
+- name=ordinal
+- ds.target=sev
+- max_trials=1

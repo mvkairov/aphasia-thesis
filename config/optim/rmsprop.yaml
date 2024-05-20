@@ -1,0 +1,3 @@
+id: rmsprop
+learning_rate: 0.0008
+momentum: 0.05

@@ -1,0 +1,32 @@
+n_epochs: 1
+batch_size: 4
+ds:
+  matter: white
+  demo: true
+  method: clf
+  target: type
+  sev_from_asa: false
+  filter_acute: false
+  scale_reg_target: false
+  path: data
+model:
+  id: cvae
+  enc_layers:
+  - id: fc
+    units: 32
+    activation: relu
+  - id: fc
+    units: 16
+    activation: relu
+  dec_layers:
+  - id: fc
+    units: 16
+    activation: relu
+  - id: fc
+    units: 32
+    activation: relu
+  latent_dim: 10
+optim:
+  id: rmsprop
+  learning_rate: 0.0008
+  momentum: 0.05

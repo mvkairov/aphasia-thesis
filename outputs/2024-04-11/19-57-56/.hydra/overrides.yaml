@@ -1,0 +1,5 @@
+- ds.method=clf
+- ds.target=sev
+- ds.matter=white
+- ds.demo=False
+- model_id=rf

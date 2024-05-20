@@ -1,0 +1,5 @@
+matter: white
+method: clf
+minmax: True
+batch_size: 2
+path: data

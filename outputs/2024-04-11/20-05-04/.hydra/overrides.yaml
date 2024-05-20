@@ -1,0 +1,6 @@
+- ds.method=reg
+- reg_as_clf=True
+- ds.target=sev
+- ds.matter=both
+- ds.demo=True
+- model_id=mlp

@@ -1,0 +1,13 @@
+enc_layers:
+  - id: fc
+    units: 24
+    activation: relu
+  - id: reg
+    l1: 1e-4
+
+dec_layers:
+  - id: fc
+    units: 24
+    activation: sigmoid
+
+latent_dim: 10

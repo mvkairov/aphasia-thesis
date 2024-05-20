@@ -1,0 +1,19 @@
+id: cvae
+
+enc_layers:
+  - id: fc
+    units: 32
+    activation: "relu"
+  - id: fc
+    units: 16
+    activation: "relu"
+
+dec_layers:
+  - id: fc
+    units: 16
+    activation: "relu"
+  - id: fc
+    units: 32
+    activation: "relu"
+
+latent_dim: 10

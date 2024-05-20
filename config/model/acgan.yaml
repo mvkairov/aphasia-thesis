@@ -1,0 +1,19 @@
+id: acgan
+
+dis_layers:
+  - id: fc
+    units: 32
+    activation: relu
+  - id: fc
+    units: 16
+    activation: relu
+
+gen_layers:
+  - id: fc
+    units: 16
+    activation: relu
+  - id: fc
+    units: 32
+    activation: relu
+
+latent_dim: 10

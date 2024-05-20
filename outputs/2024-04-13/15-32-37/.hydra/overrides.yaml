@@ -1,0 +1,5 @@
+- ds.method=reg
+- ds.target=sev
+- ds.matter=white
+- ds.demo=False
+- reg_as_clf=True

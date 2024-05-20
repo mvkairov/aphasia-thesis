@@ -1,0 +1,6 @@
+- ds.method=reg
+- ds.target=sev
+- ds.matter=white
+- ds.demo=False
+- model_id=svm
+- max_trials=1

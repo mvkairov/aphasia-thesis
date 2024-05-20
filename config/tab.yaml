@@ -1,0 +1,12 @@
+defaults:
+  - _self_
+  - ds: default
+
+model_id: rf
+max_trials: 50
+n_jobs: 4
+n_tune_splits: 3
+n_cv_splits: 5
+reg_as_clf: False
+ordinal: False
+name: test

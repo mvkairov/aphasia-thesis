@@ -1,0 +1,17 @@
+model_id: rf
+max_trials: 1
+n_jobs: 4
+n_tune_splits: 3
+n_cv_splits: 5
+reg_as_clf: false
+ordinal: true
+name: ordinal
+ds:
+  matter: white
+  demo: true
+  method: clf
+  target: sev
+  sev_from_asa: false
+  filter_acute: false
+  scale_reg_target: false
+  path: data
